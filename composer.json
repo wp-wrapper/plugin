@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "WP_Wrapper\\Plugin\\": "src/"
+      "WPWrapper\\Plugin\\": "src/"
     }
   }
 }
