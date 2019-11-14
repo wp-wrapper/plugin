@@ -1,0 +1,30 @@
+{
+  "name": "wp-wrapper/plugin",
+  "description": "WordPress Plugin wrapper.",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Plugin"
+  ],
+  "homepage": "https://github.com/wp-wrapper/plugin",
+  "authors": [
+    {
+      "name": "Sven Wagener",
+      "email": "sven@awesome.ug",
+      "homepage": "http://svenwagener.com",
+      "role": "Head of Development"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wp-wrapper/plugin/issues"
+  },
+  "require": {
+    "wp-wrapper/error-handling": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WP_Wrapper\\Plugin\\": "src/"
+    }
+  }
+}
